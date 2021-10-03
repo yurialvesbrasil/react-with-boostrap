@@ -1,0 +1,23 @@
+@import "custom";
+
+.header {
+  text-align: center;
+}
+
+span {
+  &.dangerText {
+    color: #dc3545;
+  }
+
+  &.infoText {
+    color: #17a2b8;
+    font-weight: bold;
+  }
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
